@@ -1,0 +1,16 @@
+{
+  "name": "Manual Financeiro MF",
+  "version": 1,
+  "direction": "Mesa de precificação",
+  "colors": {
+    "ink": "#10202a",
+    "paper": "#f5f2e9",
+    "cream": "#e8e2d3",
+    "lime": "#d6ec83",
+    "white": "#fffdf7"
+  },
+  "typography": {
+    "display": "Manrope",
+    "body": "DM Sans"
+  }
+}

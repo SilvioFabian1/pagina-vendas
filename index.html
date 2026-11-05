@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10202a">
+  <meta name="description" content="Planilhas de precificação para produtos e serviços. Organize custos, despesas e margem para decidir quanto cobrar com mais clareza.">
+  <title>Manual Financeiro MF — precifique com clareza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Manual Financeiro MF, voltar ao início"><span class="brand-mark">mf<span>.</span></span><span class="brand-name">manual<br>financeiro <strong>mf</strong></span></a>
+    <nav aria-label="Navegação principal"><a href="#como-funciona">Como funciona</a><a href="#planilhas">As planilhas</a><a href="#duvidas">Dúvidas</a></nav>
+    <a class="header-link" href="#planilhas">Escolher planilha <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Seu preço precisa <em>fechar a conta.</em></h1>
+        <p>Organize custos, despesas e margem em uma planilha que faz os cálculos para você. Escolha a versão para produtos ou serviços e tenha mais clareza na hora de cobrar.</p>
+        <div class="hero-actions"><a class="button button-accent" href="#planilhas">Encontrar minha planilha <span aria-hidden="true">↗</span></a><a class="text-link" href="#como-funciona">Entenda o cálculo <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-foot"><span class="small-rule"></span><span>Uma decisão melhor começa sabendo o que entra na conta.</span></div>
+      </div>
+      <div class="desk" aria-label="Simulação ilustrativa de formação de preço">
+        <div class="desk-top"><span>NA MESA DE PRECIFICAÇÃO</span><span class="live-dot">EXEMPLO ILUSTRATIVO</span></div>
+        <div class="calc-sheet">
+          <div class="sheet-head"><div><span class="sheet-overline">PLANILHA DE PRECIFICAÇÃO</span><h2>Quanto cobrar?</h2></div><span class="sheet-stamp">MF<br><small>01 / 02</small></span></div>
+          <div class="sheet-tabs" role="tablist" aria-label="Tipo de precificação"><button class="sheet-tab is-active" type="button" role="tab" id="tab-produto" aria-controls="pricing-panel" aria-selected="true" data-type="produto">Produto</button><button class="sheet-tab" type="button" role="tab" id="tab-servico" aria-controls="pricing-panel" aria-selected="false" tabindex="-1" data-type="servico">Serviço</button></div>
+          <div id="pricing-panel" role="tabpanel" aria-labelledby="tab-produto"><div class="sheet-rows"><div><span id="cost-label">Custos do produto</span><strong id="cost-value">R$ 45,00</strong></div><div><span>Despesas e taxas</span><strong id="fees-value">R$ 15,00</strong></div><div><span>Margem desejada</span><strong id="margin-value">30%</strong></div></div>
+          <div class="sheet-total"><span>Preço calculado <small>neste exemplo</small></span><strong id="total-value">R$ 85,71</strong></div>
+          <p class="sheet-note">Valores fictícios para demonstrar a lógica da planilha. O resultado real depende dos seus dados.</p></div>
+        </div>
+        <div class="desk-caption"><span class="caption-line"></span> Custos visíveis. Decisão consciente.</div>
+      </div>
+    </section>
+
+    <section class="problem section-pad" id="como-funciona" aria-labelledby="problem-title"><div class="section-intro"><h2 id="problem-title">Quando o preço vem do achismo, o lucro fica no escuro.</h2><p>O valor que você cobra precisa considerar mais do que o custo direto. Taxas, despesas e a margem que você quer alcançar também fazem parte da decisão.</p></div><div class="equation" aria-label="Custos mais despesas e taxas mais margem desejada resultam em um preço mais consciente"><span>Custos</span><b>+</b><span>Despesas e taxas</span><b>+</b><span>Margem desejada</span><b>=</b><strong>Preço com critério</strong></div></section>
+
+    <section class="how section-pad" aria-labelledby="how-title"><div class="how-heading"><h2 id="how-title">Você informa os dados.<br><em>A planilha organiza a conta.</em></h2><p>Uma ferramenta prática para enxergar os números que orientam a sua precificação.</p></div><div class="how-steps"><article><span class="step-number">1</span><h3>Preencha seus custos</h3><p>Reúna os valores ligados ao que você vende ou ao serviço que presta.</p></article><article><span class="step-number">2</span><h3>Considere despesas e taxas</h3><p>Inclua os valores que também afetam o resultado da venda.</p></article><article><span class="step-number">3</span><h3>Defina a margem</h3><p>Indique a margem desejada e veja o preço calculado pela planilha.</p></article></div></section>
+
+    <section class="products section-pad" id="planilhas" aria-labelledby="products-title"><div class="products-heading"><div><h2 id="products-title">Uma planilha para o seu jeito de vender.</h2><p>Escolha a versão que corresponde ao que você oferece.</p></div><span class="product-aside">DOIS CAMINHOS.<br>UMA CONTA MAIS CLARA.</span></div><div class="product-grid"><article class="product product-dark"><div class="product-top"><span>PARA QUEM VENDE</span><span aria-hidden="true">↗</span></div><h3>Produtos<span class="period">.</span></h3><p>Calcule o preço de venda considerando custos, despesas, taxas e a margem que você deseja.</p><ul><li>Custos organizados</li><li>Margem configurável</li><li>Cálculo automático</li></ul><a class="button button-light" href="https://pay.kiwify.com.br/psiLar2" target="_blank" rel="noopener noreferrer" aria-label="Comprar planilha para produtos, abre o checkout da Kiwify em nova aba">Quero a planilha para produtos <span aria-hidden="true">↗</span></a></article><article class="product product-lime"><div class="product-top"><span>PARA QUEM PRESTA</span><span aria-hidden="true">↗</span></div><h3>Serviços<span class="period">.</span></h3><p>Leve os custos do seu trabalho e as despesas da operação para uma precificação com mais critério.</p><ul><li>Custos do serviço organizados</li><li>Margem configurável</li><li>Cálculo automático</li></ul><a class="button button-dark" href="https://pay.kiwify.com.br/Uq0EddK" target="_blank" rel="noopener noreferrer" aria-label="Comprar planilha para serviços, abre o checkout da Kiwify em nova aba">Quero a planilha para serviços <span aria-hidden="true">↗</span></a></article></div></section>
+
+    <section class="cashflow section-pad" aria-labelledby="cash-title"><div class="cash-art" aria-hidden="true"><div class="cash-paper"><div class="cash-paper-head"><span>FLUXO DE CAIXA</span><span>↗</span></div><div class="cash-line"><span>Entradas</span><span class="cash-bar bar-one"></span></div><div class="cash-line"><span>Saídas</span><span class="cash-bar bar-two"></span></div><div class="cash-line"><span>Saldo</span><span class="cash-bar bar-three"></span></div></div></div><div class="cash-copy"><h2 id="cash-title">E depois da venda? <em>Acompanhe o caixa.</em></h2><p>A planilha de fluxo de caixa ajuda a registrar entradas e saídas, organizar categorias e visualizar o saldo do mês.</p><p>Na página atual, ela é oferecida com desconto no checkout ao comprar uma planilha de precificação. Confira as condições exibidas antes de finalizar a compra.</p><a class="text-link" href="#planilhas">Escolher uma planilha de precificação <span aria-hidden="true">↑</span></a></div></section>
+
+    <section class="faq section-pad" id="duvidas" aria-labelledby="faq-title"><div><h2 id="faq-title">Antes de escolher.</h2><p>Respostas rápidas sobre as duas versões.</p></div><div class="faq-list"><details><summary>Qual planilha devo escolher?<span aria-hidden="true">+</span></summary><p>Se você vende itens, escolha a planilha para produtos. Se cobra pelo trabalho ou atendimento que presta, escolha a planilha para serviços.</p></details><details><summary>A planilha calcula o preço automaticamente?<span aria-hidden="true">+</span></summary><p>Sim. A página atual informa que o cálculo é automático a partir dos custos, despesas, taxas e margem que você preencher.</p></details><details><summary>Onde vejo o valor e as condições de compra?<span aria-hidden="true">+</span></summary><p>Ao clicar na versão desejada, você será levado ao checkout da Kiwify, onde pode conferir o preço e as condições atuais antes de concluir a compra.</p></details></div></section>
+
+    <section class="closing section-pad"><h2>Chega de escolher o preço <em>no escuro.</em></h2><p>Comece pela planilha que corresponde ao que você vende.</p><div class="closing-actions"><a class="button button-accent" href="https://pay.kiwify.com.br/psiLar2" target="_blank" rel="noopener noreferrer">Comprar para produtos <span aria-hidden="true">↗</span></a><a class="button button-outline" href="https://pay.kiwify.com.br/Uq0EddK" target="_blank" rel="noopener noreferrer">Comprar para serviços <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#inicio" aria-label="Manual Financeiro MF, voltar ao início"><span class="brand-mark">mf<span>.</span></span><span class="brand-name">manual<br>financeiro <strong>mf</strong></span></a><p>Mais clareza para decidir quanto cobrar.</p><a href="#inicio">Voltar ao início ↑</a></footer>
+</body>
+</html>
